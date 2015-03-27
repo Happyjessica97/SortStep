@@ -50,21 +50,8 @@ public class Sorts
   }
 
   private void merge(int[] a, int first, int mid, int last)
-  { int something = a.length; 
-    int [] special = int[something];
-    int firstpos = mid; 
-    int lastpos = last;
+  {
     
-    for(int i = 0; i < something; i++){
-      if(a[first] < a[mid]){
-        a[first] = special[i];
-        first++; 
-      }if(a[first] > a[mid]){
-        a[mid - 1] = special[i]; 
-        mid++; 
-      }
-
-    }
   }
 
   public void mergeSort(int[] a, int first, int last)
