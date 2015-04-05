@@ -22,3 +22,48 @@ Merge Sort took 0 microseconds
 7. When you are finished, submit the sorting handout to the schoolloop drop box. (Note that is not necessary to submit your code for the assignment).
 8. If you have extra time, you might try to improve the efficiency of your merge sort. Also, feel free to add other sorts like quick sort or gnome sort to the program.
 
+
+
+The time it took me for 1000:
+Testing Bubble Sort
+Bubble Sort took 10124 microseconds
+Testing Selection Sort
+Selection Sort took 8678 microseconds
+Testing Insertion Sort
+Insertion Sort took 8397 microseconds
+Testing Merge Sort
+Merge Sort took 5867 microseconds
+
+The time it took me for 2000:
+
+Testing Bubble Sort
+Bubble Sort took 14530 microseconds
+Testing Selection Sort
+Selection Sort took 10797 microseconds
+Testing Insertion Sort
+Insertion Sort took 10548 microseconds
+Testing Merge Sort
+Merge Sort took 27547 microseconds
+
+The time it took me for 4000:
+
+Testing Bubble Sort
+Bubble Sort took 39730 microseconds
+Testing Selection Sort
+Selection Sort took 19141 microseconds
+Testing Insertion Sort
+Insertion Sort took 20368 microseconds
+Testing Merge Sort
+Merge Sort took 51497 microseconds
+
+
+The time it took me for 8000:
+
+Testing Bubble Sort
+Bubble Sort took 131051 microseconds
+Testing Selection Sort
+Selection Sort took 50008 microseconds
+Testing Insertion Sort
+Insertion Sort took 55174 microseconds
+Testing Merge Sort
+Merge Sort took 154680 microseconds

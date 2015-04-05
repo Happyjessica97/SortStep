@@ -15,7 +15,7 @@ public class Sorts
         }
       }
     }
-    //return list; 
+     
   }
 
   public void selectionSort(int[] list)
@@ -50,13 +50,44 @@ public class Sorts
   }
 
   private void merge(int[] a, int first, int mid, int last)
-  {
+  { int something = a.length;
+    int [] special = new int[something];
+    int onepos = first; 
+    int twopos = mid + 1;
+    
+    for(int i = first; i <= last; i++){
+      if(onepos > mid){
+        special[i] = a[twopos];
+        twopos++;
+      }
+      else if(twopos > last){
+        special[i] = a[onepos];
+        onepos++;
+      }
+      else if(a[onepos] < a[twopos]){
+        special[i] = a[onepos];
+        onepos++;
+      }
+      else if(a[onepos] > a[twopos]){
+        special[i] = a[twopos]; 
+        twopos++; 
+      }
+      
+    }
+    for(int j = first; j <=last; j++){
+        a[j] = special[j];
+    }
     
   }
 
   public void mergeSort(int[] a, int first, int last)
-  {
-    
+  {   
+     int mid = (first + last)/2;
+     if(first < last){
+      mergeSort(a, first, mid);
+      mergeSort(a, mid + 1, last);
+     }
+    merge(a, first, mid, last);
   }
 }
 
